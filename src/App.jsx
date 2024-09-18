@@ -1,10 +1,13 @@
-import EventComponent from "./components/EventComponent"
+import Propagation from "./components/Propagation";
 
 function App() {
 
+
+
   return (
     <>
-      <EventComponent></EventComponent>
+      {/* <EventComponent info={allResult} details={newArray}></EventComponent> */}
+      <Propagation></Propagation>
     </>
   )
 }
