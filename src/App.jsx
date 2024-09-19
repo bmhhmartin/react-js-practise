@@ -1,4 +1,4 @@
-import Propagation from "./components/Propagation";
+import ComponentUseState from "./components/ComponentUseState";
 
 function App() {
 
@@ -7,7 +7,8 @@ function App() {
   return (
     <>
       {/* <EventComponent info={allResult} details={newArray}></EventComponent> */}
-      <Propagation></Propagation>
+      {/* <Propagation></Propagation> */}
+      <ComponentUseState></ComponentUseState>
     </>
   )
 }
